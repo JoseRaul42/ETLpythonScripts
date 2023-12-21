@@ -64,7 +64,6 @@ def main():
 
     # Construct the file path with today's date
     file_path = rf"C:\Temp\Solana_Historical_Data_{today}.csv"
-    ##file_path = rf"C:\Temp\Solana_Historical_Data.csv" ##I changed the filepath syntax here to use a different csv file but if the other .py scripts were ran in order then use the above line.
     
 
     data = read_and_process_data(file_path)
