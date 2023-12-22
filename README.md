@@ -28,13 +28,29 @@ This project comprises a suite of three Python scripts, each tailored for specif
 
 ## **Technical Stack**
 - **Languages**: Python
-- **Libraries/Frameworks**: (Specify any libraries or frameworks used, e.g., Pandas for data manipulation, Matplotlib/Seaborn for visualization, psycopg2 for PostgreSQL integration)
-- **APIs**: (Detail the APIs used for data retrieval)
+- **Libraries/Frameworks**: Pandas for data manipulation, Matplotlib/Seaborn for visualization, psycopg2 for PostgreSQL integration
+- **APIs**: [Bitstamp API](https://www.bitstamp.net/api/v2)
 - **Database**: PostgreSQL
-- **Visualization Tools**: (Specify tools or libraries used for visualizations, if any)
+- **Visualization Tools**: Matplotlib
 
 ## **Getting Started**
-(Include basic instructions on how to set up and run the scripts, any prerequisites like Python version, library installations, etc.)
+Follow these steps to set up and run the ETL Python scripts:
+
+1. **Prerequisites**:
+   - Ensure you have Python installed on your system.
+   - Install necessary Python libraries: Pandas, Matplotlib/Seaborn, psycopg2.
+   - Set up a PostgreSQL database instance for CSV2Database.
+
+2. **Data Retrieval**:
+   - Run the API2CSV script to fetch data from the Bitstamp API.
+   - The script will retrieve five years of Solana (SOL) price data and store it in a CSV file in the `C:\temp` directory.
+
+3. **Data Processing**:
+   - After retrieving and storing data in CSV format, choose your next action:
+     - Run CSV2Database to import the data into a PostgreSQL database.
+     - Run CSV2Visualizations to create visualizations for volume, volatility, or price action.
+
+Each script is designed to be standalone, allowing flexibility in how you process and analyze the data.
 
 ## **Contribution and Customization**
 This project is open for contributions and can be easily customized to suit various data extraction, transformation, and loading (ETL) needs in different domains. Feel free to fork, modify, and use these scripts as a foundation for your data processing tasks.
