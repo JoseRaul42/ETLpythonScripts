@@ -35,7 +35,7 @@ if ($?) {
 if ($?) { 
     Write-Host "CSV2Visualizations.py executed successfully."
 } else {
-    Write-Host "Error executing ThirdScript.py."
+    Write-Host "Error executing CSV2Visualizations.py."
     exit
 }
 
