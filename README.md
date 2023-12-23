@@ -45,7 +45,7 @@ This project comprises a suite of three Python scripts, each tailored for specif
 ## Technical Stack
 - **Languages**: Python
 - **Libraries/Frameworks**: Pandas for data manipulation, Matplotlib/Seaborn for visualization, psycopg2 for PostgreSQL integration
-- **APIs**: [Bitstamp API](https://www.bitstamp.net/api/v2)
+- **APIs**: [Bitstamp API](https://www.bitstamp.net/api/)
 - **Database**: PostgreSQL
 - **Visualization Tools**: Matplotlib
 
