@@ -1,5 +1,5 @@
 param(
-    [string]$ScriptsPath = ""##Replace with the directory where your .pyscripts live.
+    [string]$ScriptsPath = ""##Replace with the directory where your .py scripts live.
 )
 
 
